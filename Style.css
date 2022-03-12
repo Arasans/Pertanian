@@ -1,0 +1,259 @@
+/* body {
+  min-height: 10000px;
+} */
+
+a {
+  font-size: 20px;
+}
+.navbar-brand {
+  font-size: 2rem;
+}
+
+.navbar {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+nav {
+  background-color: #95e06c;
+}
+
+#about,
+#pupukcard,
+#bibit,
+#bibitcard {
+  background-color: #68b684;
+}
+
+#pupuk {
+  background-color: #7aca2f;
+}
+
+#footer {
+  background-color: #95e06c;
+}
+
+/* image hero */
+
+/* Index */
+#heroabout {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Image/Banner4.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: whitesmoke;
+}
+
+#heropupuk {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Image/Banner2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: whitesmoke;
+}
+
+#herobibit {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Image/Banner3.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: whitesmoke;
+}
+#hero {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Image/Banner1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: whitesmoke;
+}
+#heroabout .container,
+#herobibit .container,
+#hero .container,
+#heropupuk .container {
+  width: 90%;
+  height: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+
+  align-items: center;
+  justify-content: left;
+  /*   text-align: center; */
+}
+
+#heroabout .info h1,
+#herobibit .info h1,
+#hero .info h1,
+#heropupuk .info h1 {
+  font-size: 3rem;
+  /* text-transform: uppercase; */
+  margin-bottom: 1rem;
+}
+
+#heroabout .info h2,
+#herobibit .info h2,
+#hero .info h2,
+#heropupuk .info h2 {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+#heroabout .info p,
+#herobibit .info p,
+#hero .info p,
+#heropupuk .info p {
+  font-size: 1.2rem;
+  max-width: 50%;
+}
+
+#heroabout .info a,
+#herobibit .info a,
+#hero .info a,
+#heropupuk .info a {
+  text-decoration: none;
+  display: inline-block;
+  background-color: white;
+  border-radius: 8px;
+  font-size: 1.8rem;
+  padding: 0.5em 2em;
+  margin-top: 1rem;
+  color: #9eca2f;
+}
+
+@media (min-width: 1024px) {
+  #herobibit,
+  #hero,
+  #heropupuk,
+  #heroabout {
+    background-attachment: fixed;
+  }
+}
+
+/* image hero end */
+
+/* carousel */
+#pupuk1 .carousel-item,
+#bibit1 .carousel-item {
+  height: 32rem;
+  background: #000;
+  color: white;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-position: center;
+  background-size: cover;
+}
+
+#pupuk1 .container,
+#bibit1 .container {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+  padding-bottom: 50px;
+}
+
+#pupuk1 .btn,
+#bibit1 .btn {
+  color: #9eca2f;
+  background-color: white;
+}
+
+#bibit1 .btn:hover {
+  background-color: #95e06c;
+  color: white;
+}
+/* carousel end */
+
+/* carousel img */
+#bibit1 .matahari {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Image/bibit/matahari.jpg);
+}
+
+#bibit1 .melati {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Image/bibit/Bibit-Bunga-Melati.jpeg);
+}
+
+#bibit1 .kertas {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Image/bibit/Bibit-Bunga-Kertas.jpg);
+}
+
+#bibit1 .pukul-empat {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Image/bibit/Bibit-Bunga-Pukul-Empat.jpg);
+}
+
+#bibit1 .cabai {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Image/bibit/Bibit-Cabai.jpg);
+}
+
+#bibit1 .cocor-bebek {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Image/bibit/Bibit-Cocor-Bebek.jpg);
+}
+
+#bibit1 .kumis-kucing {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Image/bibit/Bibit-Kumis-Kucing.jpg);
+}
+
+#bibit1 .mangga {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Image/bibit/Bibit-Mangga.jpg);
+}
+
+#bibit1 .mawar {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Image/bibit/Bibit-Mawar.jpg);
+}
+
+#bibit1 .tomat {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Image/bibit/Bibit-Tomat.jpg);
+}
+
+#pupuk1 .dolomite {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Image/pupuk/non-organic/dolomite.png);
+}
+#pupuk1 .urea {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Image/pupuk/non-organic/urea.jpg);
+}
+#pupuk1 .ZA {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Image/pupuk/non-organic/ZA.png);
+}
+#pupuk1 .SP-36 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Image/pupuk/non-organic/SP.png);
+}
+#pupuk1 .KCI {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Image/pupuk/non-organic/KCI.png);
+}
+#pupuk1 .NPK {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Image/pupuk/non-organic/NPK.png);
+}
+#pupuk1 .kandang {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Image/pupuk/Organic/kandang.jpg);
+}
+#pupuk1 .kompos {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Image/pupuk/Organic/kompos.jpg);
+}
+#pupuk1 .hijau {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Image/pupuk/Organic/hijau.jpg);
+}
+/* carousel img end */
+#bibit1 a:hover,
+#pupuk1 a:hover,
+#heroabout .info a:hover,
+#herobibit .info a:hover,
+#hero .info a:hover,
+#heropupuk .info a:hover {
+  background-color: #95e06c;
+  color: white;
+}
+
+.crop-img img {
+  object-fit: cover;
+}
